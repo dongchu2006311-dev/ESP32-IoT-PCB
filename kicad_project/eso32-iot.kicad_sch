@@ -4747,6 +4747,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 146.05) (xy 144.78 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1315eb1-9471-403b-af53-6447a2360784")
+	)
+	(wire
+		(pts
 			(xy 66.04 114.3) (xy 66.04 116.84)
 		)
 		(stroke
@@ -4824,6 +4834,16 @@
 			(type default)
 		)
 		(uuid "e2a5c1ac-1cf5-4e18-b53a-b1876a7f33e8")
+	)
+	(wire
+		(pts
+			(xy 139.7 152.4) (xy 144.78 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e54857a9-a935-49d5-ac35-eeab87cf399f")
 	)
 	(wire
 		(pts
@@ -4924,6 +4944,16 @@
 			(type default)
 		)
 		(uuid "fab45b71-f390-4c6a-9603-35ebe5cbdb36")
+	)
+	(wire
+		(pts
+			(xy 139.7 139.7) (xy 144.78 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb055306-2a83-410c-990d-38b8bfca97d0")
 	)
 	(wire
 		(pts
@@ -5035,6 +5065,16 @@
 		)
 		(uuid "54bb66f8-e98f-4cda-a494-9e05caa01067")
 	)
+	(label "VBUS"
+		(at 144.78 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55e8b805-69c3-466e-9b32-afbd5074336a")
+	)
 	(label ""
 		(at 43.18 52.07 0)
 		(effects
@@ -5044,6 +5084,36 @@
 			(justify left bottom)
 		)
 		(uuid "60f5b014-cae4-4788-a6b1-e90ce8ee8111")
+	)
+	(label "USB_DP"
+		(at 144.78 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "622f3f24-b716-476a-9b35-591ae9eae572")
+	)
+	(label "CHARGING"
+		(at 180.34 48.26 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "786a8651-a2a9-43e6-babb-dc546c30ba75")
+	)
+	(label "USB_DN"
+		(at 144.78 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79513c08-15fa-46d9-abf3-97dca9c4d6cf")
 	)
 	(label "VBAT"
 		(at 200.66 64.77 180)
@@ -5084,6 +5154,16 @@
 			(justify left bottom)
 		)
 		(uuid "9878d15f-04dd-44b5-8a8c-dfe1a40ad266")
+	)
+	(label "CHARGING"
+		(at 187.96 53.34 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9ca6aba-bf91-4a11-b5f1-7c1bd7f9de35")
 	)
 	(label "+5V_USB"
 		(at 251.46 43.18 0)
@@ -5175,6 +5255,16 @@
 		)
 		(uuid "f385dca8-6f62-46e4-9c06-fd98a5bca47f")
 	)
+	(label "CHARGING_POWER_GOOD"
+		(at 172.72 45.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5d9b291-a04b-4960-b659-c769b274e9a0")
+	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 77.47 116.84 0)
@@ -5187,7 +5277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1734d1f6-8900-4282-afda-85f1ab10f11b")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG01"
 			(at 77.47 114.935 0)
 			(hide yes)
 			(show_name no)
@@ -5247,7 +5337,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "#FLG02")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -5432,7 +5522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20590475-c5df-4e4d-bcb3-ed89911b87fe")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR08"
 			(at 74.93 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -5492,7 +5582,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "#PWR013")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5510,7 +5600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "261add23-7269-4f9d-9302-046472d9a2f5")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR05"
 			(at 46.99 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -5570,7 +5660,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "#PWR017")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5894,7 +5984,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32466d72-834b-48ae-9eac-6aef3ba9e756")
-		(property "Reference" "R1"
+		(property "Reference" "R7"
 			(at 258.826 46.228 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5904,7 +5994,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10K"
 			(at 263.652 46.228 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5956,7 +6046,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "R1")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5973,7 +6063,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3395a29d-8deb-4fa5-a3fd-4023691aa35b")
-		(property "Reference" "C4"
+		(property "Reference" "C3"
 			(at 71.628 118.618 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6037,7 +6127,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "C4")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -6055,7 +6145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a6a182e-d7b4-426f-903d-085e72e3b44f")
-		(property "Reference" "C1"
+		(property "Reference" "C5"
 			(at 113.03 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6119,7 +6209,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "C1")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -6137,7 +6227,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d43be77-d64c-4b8d-b086-fb8c1031d98c")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR011"
 			(at 109.22 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6197,7 +6287,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "#PWR08")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6380,7 +6470,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "495bf158-8e36-4a97-98c1-e7ab528c2299")
-		(property "Reference" "C3"
+		(property "Reference" "C2"
 			(at 30.988 119.888 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6444,7 +6534,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "C3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -6462,7 +6552,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d9aa38e-6e81-403f-a982-0ca9ec293fd9")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR02"
 			(at 19.05 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -6523,7 +6613,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "#PWR06")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -6707,7 +6797,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51ad1bc6-0f87-4a3f-a7fd-3fd0da4ca8b5")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR014"
 			(at 233.68 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6767,7 +6857,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "#PWR010")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6785,7 +6875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "548b61a0-6234-46e5-a748-e54fbbc67ad3")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR010"
 			(at 91.44 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6845,7 +6935,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "#PWR03")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -6863,7 +6953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ebd9930-031d-469f-bce8-28c65898773b")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR07"
 			(at 66.04 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -6923,7 +7013,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "#PWR014")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -6941,7 +7031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5efbb4ae-24ca-4f87-9212-74d401a5b27c")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR012"
 			(at 170.18 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -7001,7 +7091,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "#PWR015")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -7185,7 +7275,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a5d95a8-0763-4a21-a95b-26c448fbf3ff")
-		(property "Reference" "C2"
+		(property "Reference" "C1"
 			(at 23.114 119.888 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7249,7 +7339,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "C2")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -7267,7 +7357,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71425444-01ce-47d7-a4b2-e4b4e6b0b144")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 29.21 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7463,7 +7553,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -7480,7 +7570,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "78cd6bd6-30ff-4aa4-9d1e-b2cc2d9b1314")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR016"
 			(at 270.51 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7540,7 +7630,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "#PWR02")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7558,7 +7648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7accfe40-84d0-48c4-96cd-9ca3b9bec624")
-		(property "Reference" "R8"
+		(property "Reference" "R4"
 			(at 182.88 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7622,7 +7712,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "R8")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -7640,7 +7730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "819c2aef-a3c8-48ce-8223-ea3561a69e28")
-		(property "Reference" "R9"
+		(property "Reference" "R5"
 			(at 190.5 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7704,7 +7794,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "R9")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -7722,7 +7812,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89af47e7-8230-47c7-a866-083f79df9a03")
-		(property "Reference" "J"
+		(property "Reference" "J2"
 			(at 57.15 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8008,7 +8098,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "J")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -8026,7 +8116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cbdce08-439a-47d8-8bd6-e88209e3df35")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR01"
 			(at 24.13 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8086,7 +8176,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "#PWR04")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -8104,7 +8194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f6337ec-5648-4680-a6fc-7b2d8013c832")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR06"
 			(at 66.04 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -8164,7 +8254,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "#PWR011")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -8182,7 +8272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c036f6f-59cd-4d9e-baba-912a872788ee")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG02"
 			(at 233.68 27.305 0)
 			(hide yes)
 			(show_name no)
@@ -8242,7 +8332,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "#FLG01")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -8341,7 +8431,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a975fad3-5ad7-47fb-9031-b1e6b99a7cd6")
-		(property "Reference" "R6"
+		(property "Reference" "R10"
 			(at 276.352 67.056 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8351,7 +8441,7 @@
 				)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "20K"
 			(at 276.352 72.136 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8403,7 +8493,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "R6")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -8421,7 +8511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9e1348e-22ce-4f99-9570-5d1ca833e04f")
-		(property "Reference" "R10"
+		(property "Reference" "R6"
 			(at 204.4701 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8485,7 +8575,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "R10")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -8723,7 +8813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcf38290-5b08-494e-b856-2d625a2ce3d9")
-		(property "Reference" "R7"
+		(property "Reference" "R3"
 			(at 175.26 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8787,7 +8877,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "R7")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -8804,7 +8894,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c689e0b0-cf6b-431c-8991-bc894b206c9f")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR013"
 			(at 215.9 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -8864,7 +8954,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "#PWR016")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -8881,7 +8971,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c920c9ce-268c-46e5-b71c-40bfbfc58004")
-		(property "Reference" "R2"
+		(property "Reference" "R8"
 			(at 258.826 51.308 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8891,7 +8981,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10K"
 			(at 263.906 51.308 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8943,7 +9033,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "R2")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8961,7 +9051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce0a02f1-cf88-4fef-931c-23b981b8b05d")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR04"
 			(at 33.02 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -9021,7 +9111,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -9038,7 +9128,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7d73883-4e67-45c8-9e25-cb4f42892eaf")
-		(property "Reference" "R4"
+		(property "Reference" "R1"
 			(at 22.098 56.134 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9100,7 +9190,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "R4")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -9117,7 +9207,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db511a07-ff0a-4daf-b81a-9831d91137f1")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 89.408 57.404 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9179,7 +9269,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -9196,7 +9286,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df65edfc-4db1-4fe9-a659-b787e2ed0b97")
-		(property "Reference" "R5"
+		(property "Reference" "R9"
 			(at 267.462 67.056 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9206,7 +9296,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "2K"
 			(at 267.462 72.136 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9258,7 +9348,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "R5")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -9276,7 +9366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e37e3341-c291-45ec-a156-a16b6239ead5")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR017"
 			(at 278.13 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -9337,7 +9427,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "#PWR01")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -9354,7 +9444,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7c46e53-5947-468b-aaa0-4f10c7bd2e4e")
-		(property "Reference" "C5"
+		(property "Reference" "C4"
 			(at 79.502 118.618 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9418,7 +9508,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "C5")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -9436,7 +9526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e87cef22-acdf-4348-9783-9e4eb7d48d4a")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR09"
 			(at 97.79 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9497,7 +9587,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "#PWR07")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -9515,7 +9605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f83242ce-f178-4fb9-ac70-ed464de22d97")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR015"
 			(at 243.84 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -9576,7 +9666,7 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "#PWR09")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9594,7 +9684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f88a3141-9cc6-4a9a-8e1e-cada7f9ffdb9")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR03"
 			(at 25.4 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -9654,14 +9744,14 @@
 		(instances
 			(project "eso32-iot"
 				(path "/a991eb72-9855-4384-931d-b3bc5d2f322b"
-					(reference "#PWR012")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 93.98 131.064)
+		(at 90.678 136.144)
 		(size 49.022 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9671,13 +9761,14 @@
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 65 150 255 1)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 197 225 230 1)
 		)
 		(uuid "85aa6803-f3f4-4ff7-9d9a-40daa53f4aa8")
 		(property "Sheetname" "ESP32-C3-02"
-			(at 93.98 130.3524 0)
+			(at 90.678 135.4324 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9688,7 +9779,7 @@
 			)
 		)
 		(property "Sheetfile" "esp32-C3-02.kicad_sch"
-			(at 93.98 176.0986 0)
+			(at 90.678 181.1786 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9696,6 +9787,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "USB_DN" input
+			(at 139.7 139.7 0)
+			(uuid "bdc6bfbd-f416-41c0-b7ba-126671a79e06")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" input
+			(at 139.7 146.05 0)
+			(uuid "7cba2405-a3bc-40cd-91bb-1065190cfcf3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS" input
+			(at 139.7 152.4 0)
+			(uuid "e19268ab-ad8b-4bbe-b317-eda874dda113")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
