@@ -668,7 +668,7 @@
         "uuid": "a991eb72-9855-4384-931d-b3bc5d2f322b"
       }
     ],
-    "used_designators": "#FLG1-2,R1-14,J1-3,U1-5,F1,VR1,D1,#PWR1-19,LED1-4,C1-9",
+    "used_designators": "#FLG1-2,R1-17,R19,R21,J1-3,U1-5,F1,VR1,D1,#PWR1-33,LED1-6,C1-9,C11-12,C14-15,TP1-5",
     "variants": []
   },
   "sheets": [
@@ -679,6 +679,14 @@
     [
       "85aa6803-f3f4-4ff7-9d9a-40daa53f4aa8",
       "ESP32-C3-02"
+    ],
+    [
+      "acdb41a2-3c34-47b8-911f-3a592fe49560",
+      "User Inteterface"
+    ],
+    [
+      "846feeba-1354-484e-9554-7ae082bc3551",
+      "Sensors"
     ]
   ],
   "text_variables": {},
