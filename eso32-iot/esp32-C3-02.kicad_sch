@@ -5510,16 +5510,6 @@
 		)
 		(uuid "5b5820fd-f785-41be-922c-9e1d5da66101")
 	)
-	(label "PHOTO_C"
-		(at 158.75 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "76daeba7-18bf-43a2-972a-f436ae08a190")
-	)
 	(label "DTS"
 		(at 88.9 62.23 0)
 		(effects
@@ -5529,16 +5519,6 @@
 			(justify left bottom)
 		)
 		(uuid "8966b29a-2189-473b-80ab-702358afdc67")
-	)
-	(label "SDA"
-		(at 158.75 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9381e46f-7b0b-41fb-9ab8-2fb5cb4cc4ac")
 	)
 	(label "GPIO18"
 		(at 234.95 54.61 0)
@@ -5569,16 +5549,6 @@
 			(justify left bottom)
 		)
 		(uuid "9d5c7e25-dbf6-4eb6-9e3f-651022114504")
-	)
-	(label "SCL"
-		(at 158.75 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a0a29e48-d181-4ff2-895f-79613a611a5c")
 	)
 	(label "MIC_OUT"
 		(at 199.39 57.15 180)
@@ -5619,16 +5589,6 @@
 			(justify left bottom)
 		)
 		(uuid "be2a52cd-2c74-4f93-9a17-a8ac7b2e07fd")
-	)
-	(label "MIC_OUT"
-		(at 158.75 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cde9e0ae-8837-4639-886d-27062ddae86f")
 	)
 	(label "BOOT"
 		(at 234.95 49.53 0)
