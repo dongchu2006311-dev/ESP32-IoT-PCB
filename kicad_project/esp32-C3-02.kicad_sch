@@ -4392,6 +4392,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 139.7) (xy 158.75 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13172dd8-6259-42a2-8df4-ec440da60b80")
+	)
+	(wire
+		(pts
 			(xy 36.83 77.47) (xy 27.94 77.47)
 		)
 		(stroke
@@ -4449,6 +4459,16 @@
 			(type default)
 		)
 		(uuid "29bc87d4-f26c-4619-aba6-50e3d524973a")
+	)
+	(wire
+		(pts
+			(xy 149.86 143.51) (xy 158.75 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29fdde03-d485-4464-b3f5-1ad346759bcb")
 	)
 	(wire
 		(pts
@@ -4972,6 +4992,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 130.81) (xy 158.75 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8f65809-5527-4385-bb95-5b80793f9d4d")
+	)
+	(wire
+		(pts
 			(xy 140.97 85.09) (xy 140.97 97.79)
 		)
 		(stroke
@@ -4989,6 +5019,16 @@
 			(type default)
 		)
 		(uuid "ade17885-e4d1-415e-8b4d-e000b04fd4e1")
+	)
+	(wire
+		(pts
+			(xy 149.86 134.62) (xy 158.75 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afe9c624-22d2-4a44-9db6-d4f9e11a03b1")
 	)
 	(wire
 		(pts
@@ -10097,6 +10137,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "MIC_OUT" input
+			(at 149.86 130.81 0)
+			(uuid "af472be1-6ecf-4249-8edc-98267feb50dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PHOTO_C" input
+			(at 149.86 134.62 0)
+			(uuid "28445395-1f14-495d-90c6-a5c1c43b18fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 149.86 139.7 0)
+			(uuid "e13a003a-a6e9-421e-81f9-937d0503d359")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" input
+			(at 149.86 143.51 0)
+			(uuid "23cccb62-7b63-4156-acc8-c208e9c63fdd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
