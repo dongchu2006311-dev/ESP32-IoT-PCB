@@ -2635,7 +2635,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USLPT2819DT2TR:SW_USLPT2819DT2TR"
+		(property "Footprint" "Footprints:SW_USLPT2819DT2TR"
 			(at 144.78 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -4116,7 +4116,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USLPT2819DT2TR:SW_USLPT2819DT2TR"
+		(property "Footprint" "Footprints:SW_USLPT2819DT2TR"
 			(at 233.68 48.26 0)
 			(hide yes)
 			(show_name no)
