@@ -5472,7 +5472,7 @@
 		)
 		(uuid "1bb9c387-6db6-4ebd-befa-a2c557057d2e")
 	)
-	(label "RTX"
+	(label "RTS"
 		(at 88.9 59.69 0)
 		(effects
 			(font
@@ -5742,7 +5742,7 @@
 		)
 		(uuid "a0a29e48-d181-4ff2-895f-79613a611a5c")
 	)
-	(label "RTX"
+	(label "RTS"
 		(at 156.21 165.1 0)
 		(effects
 			(font
