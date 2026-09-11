@@ -3190,7 +3190,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 77.47 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -3281,7 +3281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" ""
 			(at 127.9652 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -3363,7 +3363,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 78.74 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -3450,7 +3450,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" ""
 			(at 216.662 44.45 90)
 			(hide yes)
 			(show_name no)
@@ -3608,7 +3608,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" ""
 			(at 232.41 130.048 90)
 			(hide yes)
 			(show_name no)
@@ -3800,7 +3800,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" ""
 			(at 227.0252 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -3880,7 +3880,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" ""
 			(at 232.41 110.998 90)
 			(hide yes)
 			(show_name no)
