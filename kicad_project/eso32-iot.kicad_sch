@@ -4477,7 +4477,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 156.21) (xy 46.99 156.21)
+			(xy 38.1 156.21) (xy 48.26 156.21)
 		)
 		(stroke
 			(width 0)
@@ -5015,6 +5015,16 @@
 		)
 		(uuid "1bcd76c6-5165-461b-94e6-7571f51816b2")
 	)
+	(label "VBAT"
+		(at 48.26 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "29b880a9-161e-4d18-8d62-8a9020f92b88")
+	)
 	(label ""
 		(at 180.34 49.53 0)
 		(effects
@@ -5224,16 +5234,6 @@
 			(justify left bottom)
 		)
 		(uuid "d162c2ac-76c6-4952-b3f8-1ab44b5a28a2")
-	)
-	(label "VBAT"
-		(at 46.99 156.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e7ea1d6a-592e-4560-9165-abe10c5e04d9")
 	)
 	(label "+5V"
 		(at 17.78 116.84 0)
